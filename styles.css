@@ -1,0 +1,32 @@
+#editor { 
+    height: 300px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+.toolbar button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#editor ul, #editor ol {
+    padding-left: 20px;
+}
+
+#editor ul li {
+    list-style-type: disc;
+}
+
+#editor ol li {
+    list-style-type: decimal;
+}
+
+#message.success {
+    color: green;
+}
